@@ -1,0 +1,448 @@
+main{
+    background-color: rgb 255,255,255;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.hero{
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 1153px;
+    position: relative;
+}
+
+.exkl{
+    width: 794px;
+    height: 315px;
+}
+
+.qwe1{
+    font-family: Helvetica;
+    padding-top: 20px;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: left;
+    line-height: 120%;
+}
+
+.qwe{
+    font-family: Helvetica;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: left;
+    line-height: 120%;
+}
+
+.weCan{
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: left;
+    width: 445px;
+    height: 84px;
+    word-spacing: 2px;
+    
+}
+
+.order{
+    display: flex;
+    height: 270px;
+    align-items: end;
+    justify-content: end;
+    font-size: 18px;
+}
+.imgR{
+    margin-top: 310px;
+    position: absolute;
+    right: 0;
+    height: 809px;
+    width: 678px;
+    background-image: url('./assets/heroR.jpg');
+    background-size: cover;
+    object-fit: cover;
+    background-position: center;
+
+}
+
+.imgL{
+    margin-top: 626px;
+    position: absolute;
+    height: 493px;
+    width: 329px;
+    background-image: url('./assets/heroL.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+div.more5{
+    font-family: Helvetica;
+    font-size: 48px;
+    padding-left: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 589px;
+    width: 562px;
+    line-height: 135%;
+    font-weight: 400px;
+}
+
+.about{
+    padding-top: 140px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 589;
+    width: 1376px;
+    line-height: 135%;
+    font-weight: 400px;
+}
+
+
+div.right{
+    padding-left: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+
+div.aboutText{
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 208px;
+    width: 446px;
+    line-height: 140%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.nn{
+    padding-top: 11px;
+}
+
+div.aboutInfo{
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 146px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p.lrg{
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 90%;
+    padding-top: 50px;
+}
+
+p.sml{
+    line-height: 110%;
+}
+
+.fst{
+    margin-top: 20px;
+    line-height: 90%;
+    width: 146px;
+    height: 94px;
+}
+
+.scnd{
+    margin-top: 22px;
+    width: 117px;
+    height: 94px;
+}
+
+.thr{
+    padding-top: 24px;
+    width: 146px;
+    height: 72px;
+}
+
+div.steps{
+    display: flex;
+    font-style: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    padding-top: 100px;
+    width: 1376px;
+    height: 1078px;
+}
+
+div.kak{
+    padding-left: 5px;
+    word-spacing: 4px;
+    font-size: 48px;
+    width: 678px;
+}
+
+div.rightSteps{
+    padding-top: 5px;
+    padding-left: 20px;
+    width: 678px;
+}
+
+.alg{
+    width: 325px;
+    height: 44px;
+    line-height: 130%;
+}
+
+div.stepsItems{
+    height: 936px;
+    width: 678px;
+}
+
+.nameSt{
+    width: 339px;
+    font-size: 36px;
+    line-height: 125%;
+}
+
+.textSt{
+    padding-left: 10px;
+    display: flex;
+    width: 339px;
+    justify-content: center;
+    align-items: center;
+    line-height: 110%;
+    word-spacing: 2px;
+}
+
+.idea{
+    height: 190px;
+    padding-top: 52.5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #000000;
+    padding-bottom: 10px;
+}
+
+.tz{
+    height: 192px;
+    padding-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #000000;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.komPred{
+    height: 185px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #000000;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.komPred .nameSt{
+    padding-top: 20px;
+}
+.komPred .textSt{
+    padding-top: 7px;
+    padding-right: 20px;
+}
+
+.podg{
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #000000;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.podg .nameSt{
+    padding-top: 20px;
+}
+.podg .textSt{
+    padding-right: 20px;
+}
+
+.proizv{
+    height: 156px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 3px solid #000000;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.proizv .nameSt{
+    padding-top: 15px;
+    width: 250px;
+}
+.proizv .textSt{
+    padding-top: 8px;
+}
+
+div.proj{
+    padding-top: 120px;
+}
+
+.proj p{
+    font-size: 48px;
+}
+
+.pict{
+    width: 1376px;
+    display: flex;
+    padding-top: 25px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.img{
+    width: 445px;
+    height: 580px;
+    object-fit: cover;
+}
+
+.pict .img-fst{
+    background-image: url('./assets/proj/tv.jpg');
+    background-size: cover;
+}
+
+.pict .img-nd{
+    background-image: url('./assets/proj/kitchen.jpg');
+    background-size: cover;
+}
+
+.pict .img-thr{
+    background-image: url('./assets/proj/gostinnaya.jpg');
+    background-size: cover;
+}
+
+.pict .img-four{
+    background-image: url('./assets/proj/shkafi.jpg');
+    background-size: cover;
+}
+
+.pict .img-fiv{
+    background-image: url('./assets/proj/bed.jpg');
+    background-size: cover;
+}
+
+.pict .img-six{
+    background-image: url('./assets/proj/tumb.jpg');
+    background-size: cover;
+    background-position: bottom;
+}
+
+
+.testimonials{
+    padding-top: 146px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 425px;
+    width: 1376px;
+    line-height: 135%;
+    font-weight: 400px;
+    justify-content: space-between;
+}
+
+.testimonials p{
+    font-size: 48px;
+    width: 1376px;
+    padding-bottom: 48px;
+}
+
+.rev{
+    display: flex;
+    width: 445px;
+    height: 327px;
+    border: 2px solid #000000;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.rev img{
+    padding-top: 43px;
+    width: 40px;
+    height: 73px;
+}
+
+.rev .name{
+    font-weight: 600;
+    height: 5px;
+    width: 445px;
+    padding-top: 44px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.rev .text{
+    padding-top: 40px;
+    text-align: center;
+    width: 350px;
+    font-size: 16px;
+}
+
+.arkasha .text{
+    width: 370px;
+}
+
+
+.forma{
+    padding-top: 240px;
+    display: flex;
+    width: 1376px;
+    height: 805px;
+    justify-content: space-between
+}
+
+.formIMG{
+    width: 562px;
+    height: 566px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 778px;
+    height: 566px;
+    padding-left: 100px;
+}
+
+.formtext{
+    display: flex;
+    flex-direction: column;
+    width: 778px;
+    height: 100px;
+}
+
+.formtext .fst{
+    height: 10px;
+    width: 780px;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: 1.15px;
+}
+
+.formtext .scnd{
+    width: 780px;
+    padding-top: 72px;
+    font-weight: 400;
+}
+
+.links{
+    padding-top: 43px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links img{
+    height: 36px;
+}

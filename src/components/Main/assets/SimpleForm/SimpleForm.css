@@ -1,0 +1,41 @@
+.simple-form {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 74px;
+    font-family: Arial, sans-serif;
+    height: 268px;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group input {
+    height: 31px;
+    width: 562px;
+    padding: 10px;
+    border-top: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ffffff;
+    font-size: 16px;
+  }
+
+
+  
+  .submit-btn {
+    margin-top: 12px;
+    background: #000000;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+    width: 176px;
+    height: 66px;
+  }
+  
+  .submit-btn:hover {
+    background: #000000;
+
+  }
